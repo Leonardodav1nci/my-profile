@@ -1,0 +1,128 @@
+body{
+    background-color: rgba(236, 244, 214, 1);
+    color:rgba(38, 80, 115, 1);
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    }
+h1{
+    color:rgba(154, 208, 194, 1);
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+h2{
+    color: rgba(45, 149, 150, 1);
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(7, 65, 115, 1)
+} 
+
+a:hover {
+    color:yellow
+}
+
+.img-circle{
+    border-radius: 50%;
+}
+
+.container{
+    width: 700px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+@media (max-width:960px) {
+    .container{
+        width:700px;
+    }
+}
+
+@media (max-width:720px) {
+    .container{
+        width:500px;
+    }
+}
+
+@media (max-width:540px) {
+    .container{
+        width:300px;
+    }
+    .box-white img{
+        width:100%
+    }
+}
+
+.box-profile{
+    margin: 20px 0px;
+    background: white;
+    padding:20px 50px 40px 50px;
+    border-radius: 4px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,.1);
+      }
+
+.box-white{
+    margin: 20px 0px;
+    background: white;
+    padding:20px 50px 40px 50px;
+    border-radius: 4px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,.1);
+}
+
+.box-1{
+    margin: 20px 0px;
+    background: white;
+    padding:20px 50px 40px 50px;
+    border-radius: 4px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,.1);
+}
+
+.btn-blue{
+    background-color: rgba(7, 65, 115, 1);
+    color: rgba(255,255,255,1);
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-weight: 400;
+}
+
+.btn-blue:hover{
+    background-color: rgba(236, 244, 214, 1);
+    color: rgba(7, 65, 115, 1);
+}
+
+.list-inline {
+    list-style: none;
+    display: inline;
+    padding-left:0px;
+}
+
+.list-inline li{
+    display: inline;
+    padding: 10px;
+}
+.list-inline i{
+    font-size: 40px;
+    color:rgba(7, 65, 115, 0.3);
+}
+
+.list-inline i:hover{
+    font-size: 40px;
+    color:rgba(7, 65, 115, 1);
+}
+
+#introduction p{
+    margin-bottom: 40px;
+}
+
+.box-position img {
+    width: 50%; 
+    height: 50%;
+    height: auto; 
+    margin-right: 20px; 
+    border-radius: 4px;
+}
